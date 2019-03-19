@@ -1,0 +1,180 @@
+body {
+    margin : 0;
+    padding : 0;
+    margin-top : 10px;
+}
+button {
+    background-color: #4286f4;
+    border: 1px solid #4286f4;
+    color : #ffffff; /* # 000000 검정색 */
+    padding : 3px 8px 3px 8px;
+    cursor: pointer;
+}
+#image-button {
+    cursor:pointer;
+}
+button:active {
+    background-color : #22ffee;
+    border: 1px solid #22ffee;
+}
+button:focus {
+    outline: none;
+}
+#Header-Box {
+    width: 20%;
+    display:inline-block;
+    height: 120px;
+    float : left;
+}
+#Header-box-text {
+    line-height: 80px;
+    font-size: 1.3em;
+    text-align:center;
+    width:400px;
+}
+#menu-box {
+    width:80%;
+    height: 120px;
+    display:inline-block;
+    float:left;
+}
+#menu-box ul, #menu-box li {
+    list-style: none;
+}
+#menu-box #menu ul {
+    margin: 0;
+    padding: 0;
+}
+#menu-box #menu .main-menu {
+    float:left;
+    line-height: 35px;
+    padding: 0 50px;
+    margin: 0 10px;
+    border: 1px solid #ccc;
+    position:relative;
+    text-align: center;
+    text-decoration: none;
+}
+#menu-box #menu .main-menu:hover ul {
+    height:93px;
+}
+#menu-box #menu .main-menu ul {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    z-index: 1;
+    background-color:#4286f4;
+    height: 0;
+    overflow: hidden;
+    transition: height 0.5s ease;
+}
+#menu-box #menu .main-menu ul li {
+    border-bottom:1px solid #ccc;
+    color: #ffffff;
+    text-align: center;
+}
+#Footer-Box {
+    text-align : Center;
+    border-top: 2px solid #cccccc;
+}
+#Content-Box {
+    overflow: hidden;
+    padding : 0 20px;
+}
+#Login-Box {
+    width: calc(30% - 20px);
+    float: left;
+    height: 450px;
+    margin-right: 20px;
+}
+#Login-Box .login-text {
+    border-top: 1px solid #ccc;
+    padding: 5px 0;
+}
+#Login-Box #login-form {
+    display:inline-block;
+    width:100%;
+    padding-top:10px;
+    border-top: 1px solid #ccc;
+}
+#Login-Box #btn-form {
+    display: inline-block;
+}
+#Login-Box input {
+    width: 100%;
+    padding: 5px 0px 5px 0px;
+}
+#login-user-id {
+    font-weight:bold;
+}
+#login-img {
+    width:100px;
+    height:200px;
+    border:1px solid red;
+    margin-top:10px;
+}
+#Login-Box-button-row {
+    text-align: right;
+    margin-top: 10px;
+}
+#Login-move-btn {
+    float: right;
+    margin-right: 300px;
+}
+#Board-Box {
+    width: 70%;
+    height: 450px;
+    float: left;
+}
+#table {
+    width: 100%;
+    border-collapse: collapse;  /* 겹치는 선을사라지게 해줌 */
+}
+
+#table .center {
+    text-align : center;
+}
+#table-button-row {
+    text-align: right;
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+}
+th, td {
+    border-top: 1px solid #ccc;
+    line-height: 30px;
+}
+.view-box {
+    border-bottom:1px solid #ccc;
+}
+.view-box .line {
+    border-bottom: 1px solid #ccc;
+    overflow: hidden;
+}
+.view-box .content-line {
+    min-height:250px;
+}
+.view-box .content-line textarea {
+    width: calc(100% - 6px);
+    min-height: 300px;
+    float:left;
+}
+.view-box .line .section {
+    float: left;
+    line-height: 30px;
+}
+.view-box .line .left-section {
+    width: calc(30% - 1px);
+    border-right: 1px solid #ccc;
+    font-weight: bold;
+} 
+.view-box .line .right-section {
+    width: 70%;
+    text-indent: 10px;
+} 
+.view-box .btn-row {
+    text-align:right;
+    margin : 5px 0;
+}
+.view-box form {
+    display:inline-block;
+}

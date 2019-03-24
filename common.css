@@ -10,6 +10,9 @@ button {
     padding : 3px 8px 3px 8px;
     cursor: pointer;
 }
+input {
+    padding : 5px 17px 5px 17px;
+}
 #image-button {
     cursor:pointer;
 }
@@ -77,6 +80,11 @@ button:focus {
     text-align : Center;
     border-top: 2px solid #cccccc;
 }
+#Footer-noslide-Box {
+    text-align : Center;
+    border-top: 2px solid #cccccc; 
+    height: 200px;
+}
 #Content-Box {
     overflow: hidden;
     padding : 0 20px;
@@ -117,10 +125,6 @@ button:focus {
     text-align: right;
     margin-top: 10px;
 }
-#Login-move-btn {
-    float: right;
-    margin-right: 300px;
-}
 #Board-Box {
     width: 70%;
     height: 450px;
@@ -130,7 +134,6 @@ button:focus {
     width: 100%;
     border-collapse: collapse;  /* 겹치는 선을사라지게 해줌 */
 }
-
 #table .center {
     text-align : center;
 }
@@ -172,9 +175,33 @@ th, td {
     text-indent: 10px;
 } 
 .view-box .btn-row {
-    text-align:right;
+    text-align: right;
     margin : 5px 0;
 }
 .view-box form {
     display:inline-block;
+}
+#info-box {
+    float: right;
+    margin-right: 260px;
+}
+#join-box {
+    width:500px;
+    height:500px;
+
+    margin:auto;
+    margin-bottom: 100px;
+
+    border: 2px solid #ccc;
+}
+h3 {
+    font-size: 30px;
+    text-align:center;
+}
+#join-info-box {
+    text-align: center;
+    padding: 10px;
+}
+#user-id, #user-pw,#reset-btn,#submit-btn {
+    margin-bottom: 20px;
 }

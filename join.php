@@ -31,11 +31,10 @@
                         <button type = "reset">초기화</button>
                         <button type = "submit">회원가입</button>
                     </div>
-                <div>   
+                <div>
         </form>
     </div>
     
-
     <?php
     require __DIR__ .'/Footer.php';
     ?>

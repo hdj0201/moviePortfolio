@@ -13,7 +13,10 @@
         <div id = "Header-box-text"><a href="/"><img src ="Home.jpg"></a></div>
     </div>
     <div id = "menu-box">
-    <button id = "Login-move-btn"><a href = "/join.php">로그인</a></button>
+            <div id = "info-box">
+                <button id = "Login-move-btn"><a href = "/join.php">로그인</a></button>
+                <button id = "join-move-btn"><a href = "/join-noslide.php">회원가입</a></button>
+            </div>
             <ul id = "menu">
                 <li class = "main-menu">1번
                     <ul>

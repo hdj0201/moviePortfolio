@@ -10,6 +10,10 @@ button {
     padding : 3px 8px 3px 8px;
     cursor: pointer;
 }
+button a{
+    color:white;
+    text-decoration: none;
+}
 input {
     padding : 5px 17px 5px 17px;
 }
@@ -30,16 +34,21 @@ button:focus {
     float : left;
 }
 #Header-box-text {
-    line-height: 80px;
-    font-size: 1.3em;
+    line-height: 110px;
     text-align:center;
-    width:400px;
+    width: 690px;
+}
+#Header-noslide-box-text {
+    margin-left: 50px;
 }
 #menu-box {
     width:80%;
     height: 120px;
     display:inline-block;
     float:left;
+}
+#menu {
+    margin-left: 150px;
 }
 #menu-box ul, #menu-box li {
     list-style: none;
@@ -59,7 +68,7 @@ button:focus {
     text-decoration: none;
 }
 #menu-box #menu .main-menu:hover ul {
-    height:93px;
+    height:105px;
 }
 #menu-box #menu .main-menu ul {
     width: 100%;
@@ -125,10 +134,14 @@ button:focus {
     text-align: right;
     margin-top: 10px;
 }
+.login-text {
+    margin-left: 770px;
+    margin-top: 10px;
+}
 #Board-Box {
-    width: 70%;
+    width: 61%;
     height: 450px;
-    float: left;
+    margin: auto;
 }
 #table {
     width: 100%;
@@ -183,7 +196,9 @@ th, td {
 }
 #info-box {
     float: right;
-    margin-right: 260px;
+    margin-top: 25px;
+    width: calc(40% - 40px);
+    height: 50%;
 }
 #join-box {
     width:500px;
@@ -197,6 +212,8 @@ th, td {
 h3 {
     font-size: 30px;
     text-align:center;
+    height: 100px;
+    margin-bottom: 0px;
 }
 #join-info-box {
     text-align: center;
@@ -204,4 +221,10 @@ h3 {
 }
 #user-id, #user-pw,#reset-btn,#submit-btn {
     margin-bottom: 20px;
+}
+img.join-icon {
+    position: relative;
+    width: 100px;
+    left: 200px;
+    top: -30px;
 }

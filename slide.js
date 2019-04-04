@@ -29,7 +29,7 @@
      pos = max_position;
  }
 
-var left_px = pos * -1000;
+var left_px = pos * -900;
 
  ChangeSlideStyle(left_px + 'px' , pos);
 

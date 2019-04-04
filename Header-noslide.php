@@ -12,3 +12,4 @@
         <div id = "Header-noslide-box-text"><a href="/"><img src ="Home.jpg"></a></div>
     </div>
 </div>
+</body>

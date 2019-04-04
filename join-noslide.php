@@ -17,21 +17,19 @@
     ?>
 
         <div id = "join-box">
-          <form action="/join.php" method="POST">
+          <form action="/join-noslide.php" method="POST">
             <h3>환영합니다</h3>
+            <img src="icon.png" class = "join-icon">
         <div id = "join-info-box">
                 <input id = "user-id" type="text" name = "user_id" placeholder = "아이디"><br>
                 <input id = "user-pw" type="password" name = "user_pw" placeholder = "비밀번호"><br>
             <div id = "join-btn">
-                <button id = "reset-btn" type = "reset">초기화</button><br>
                 <button id = "submit-btn" type = "submit">회원가입</button>
             </div>
         </div>
           </form>
         </div>
     
-    <div>
     <?php
     require __DIR__ .'/Footer-noslide.php';
     ?>
-    </div>

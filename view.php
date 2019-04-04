@@ -1,7 +1,7 @@
         <?php
         require __DIR__ . '/Header.php';
 
-        session_start();
+        //session_start();
 
         $db = new PDO("mysql:host=localhost;dbname=myhomepage; charset=utf8;", "root", "");
 
